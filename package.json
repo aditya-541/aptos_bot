@@ -1,0 +1,26 @@
+{
+  "name": "aptos-verse-bot",
+  "version": "1.0.0",
+  "description": "A professional Telegram bot for Aptos blockchain information and resources",
+  "main": "aptos_verse_bot.js",
+  "scripts": {
+    "start": "node aptos_verse_bot.js",
+    "dev": "nodemon aptos_verse_bot.js"
+  },
+  "keywords": [
+    "aptos",
+    "blockchain",
+    "telegram",
+    "bot",
+    "crypto"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
